@@ -1,0 +1,4 @@
+%h1 Files on server
+- @list.each do |download_link|
+	%a(href="#{@base_url}/download/#{download_link}") #{download_link}
+	%br
